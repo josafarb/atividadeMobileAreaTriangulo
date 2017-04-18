@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    tools:context="br.com.atividadeareatriangulo.MainActivity">
+
+    <EditText
+        android:id="@+id/entradaBase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Base"
+        android:textSize="20dp"
+        android:layout_marginTop="90dp"/>
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/entradaAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Altura"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:layout_marginTop="40dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:id="@+id/resultado"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:onClick="calcular"/>
+
+
+</LinearLayout>
